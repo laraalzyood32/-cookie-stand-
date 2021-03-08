@@ -6,7 +6,7 @@ let  allcookieshops = [];
 let  cookieshopTable = document.getElementById('cookies-sold');
 
 let  cookieShopshape = document.getElementById('add-shop-shape');
-
+let custPerHr
 function CookieShop(location, minCust, maxCust, cookiesPerSale) {
   this.location = location;
   this.minCust = minCust;
@@ -19,7 +19,7 @@ function CookieShop(location, minCust, maxCust, cookiesPerSale) {
 
 debugger;
 CookieShop.Initiallook.custPerHr = function () {
-  return Math.ceil(Math.random() * ((this.maxCust) - (this.minCust)));
+  return Math.ceil(Math.random() * ((this.maxCust) - (this.minCust))+ this.minCust);
 };
 
 CookieShop.Initiallook.cookiesPerHr = function () {
@@ -106,9 +106,9 @@ new CookieShop('paris', 20, 38,2.3 );
 new CookieShop('dubai', 11, 38, 3.7);
 new CookieShop('tokyo', 3, 24, 1.2);
 
-function  allcookieshops() {
-  for(let  i in  allcookieshops) {
-    allcookieshops[i].render();
+function  totalcookieshops() {
+  for(let  k  in  totalcookieshops) {
+    totalcookieshops[k].render();
   }
 }
 // code to add new shop 
