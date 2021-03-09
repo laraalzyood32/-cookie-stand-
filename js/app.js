@@ -48,7 +48,7 @@ for (let i = 1; i < 5; i++){
    footer.innerText = totalCookiesSold ;
     cell.appendChild(footer);
     totalCookiesSold += cookiesSold;
-
+cookieshopTable.appendChild(trow);
     }           
     table.appendChild(trow[i]);
 }
