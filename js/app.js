@@ -33,6 +33,7 @@ let totalCookiesSold = 0;
     location[i] = this.totalCookiesSoldInADay;
     return location;
   }
+<<<<<<< HEAD
 
   let  newShop=document.getElementById('newshop');
   
@@ -58,6 +59,9 @@ let totalCookiesSold = 0;
     }
   }
   
+=======
+    
+>>>>>>> 2a691220cf387b0de95db605abe460a89deb3a69
     let table = document.getElementById('cookietable');
     let table = document.createElement('table');
     let trow = [];
