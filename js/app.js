@@ -2,12 +2,16 @@
 let  salesHour = ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm', '8pm'];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 let  allcookieshops = [];
 //Get cookie sold to table 
 let  cookieshopTable = document.getElementById('cookies-sold');
 
 let  cookieShopshape = document.getElementById('add-shop-shape');
 let custPerHr
+=======
+let  alllocationshops = [];
+>>>>>>> ff3b948d33ab4bac89095b795c5d61d1cb4ae2bf
 =======
 let  alllocationshops = [];
 >>>>>>> ff3b948d33ab4bac89095b795c5d61d1cb4ae2bf
@@ -20,6 +24,7 @@ function CookieShop(location, minCust, maxCust, cookiesPerSale) {
   alllocationshops.push(this);
 
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 debugger;
@@ -79,6 +84,8 @@ function makeHeaderRow() {
 
   cookieshopTable.appendChild(headElement);
 =======
+=======
+>>>>>>> ff3b948d33ab4bac89095b795c5d61d1cb4ae2bf
 let  firstshop=new  CookieShop('seatel', 23, 65, 6.3);
 let  secondshop=new  CookieShop('lima', 2, 16, 4.6);
 let  thirdshop=new   CookieShop('paris', 20, 38,2.3 );
@@ -101,6 +108,9 @@ let head = document.createElement('header');
  trow = document.createElement('trow');
 head.innerText = this.location;
 trow.appendChild(head);
+<<<<<<< HEAD
+>>>>>>> ff3b948d33ab4bac89095b795c5d61d1cb4ae2bf
+=======
 >>>>>>> ff3b948d33ab4bac89095b795c5d61d1cb4ae2bf
 }
 
@@ -127,6 +137,7 @@ cookieshopTable.innerHTML = '';
 totalCookiesPerHour();
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 function  totalcookieshops() {
   for(let  k  in  totalcookieshops) {
     totalcookieshops[k].render();
@@ -134,6 +145,8 @@ function  totalcookieshops() {
 }
 // code to add new shop 
 function salmonCookieShop(shop) {
+=======
+>>>>>>> ff3b948d33ab4bac89095b795c5d61d1cb4ae2bf
 =======
 >>>>>>> ff3b948d33ab4bac89095b795c5d61d1cb4ae2bf
 

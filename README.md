@@ -1,6 +1,11 @@
 # -cookie-stand-
 cookies sales shop
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# -cookie-stand-
+cookies sales shop
+>>>>>>> ff3b948d33ab4bac89095b795c5d61d1cb4ae2bf
 =======
 # -cookie-stand-
 cookies sales shop
@@ -28,7 +33,11 @@ Add a comment to this Canvas submission with answers to the following questions
 How did this go, overall?
 What observations or questions do you have about what you've learned so far?
 <<<<<<< HEAD
+<<<<<<< HEAD
 How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment
+=======
+How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment
+>>>>>>> ff3b948d33ab4bac89095b795c5d61d1cb4ae2bf
 =======
 How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment
 >>>>>>> ff3b948d33ab4bac89095b795c5d61d1cb4ae2bf
