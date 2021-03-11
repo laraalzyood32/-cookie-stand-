@@ -33,35 +33,11 @@ let totalCookiesSold = 0;
     location[i] = this.totalCookiesSoldInADay;
     return location;
   }
-<<<<<<< HEAD
 
-  let  newShop=document.getElementById('newshop');
+
+ 
   
-  function handleshop(event){
-    event.preventDefault();
-    newShop.addEventListener('submit', handleshop);
-    let newShop =event.target.place.value;
-    let  max=parseInt(event.target.max.value);
-    let  min=parseInt(event.target.min.value);
-    let avgsold=parseInt(event.target.avgsold.value);
-    if( totalCookiesSoldInADay===mincus){
-      alert('this a bad day sales');
-    }
-    else{
-  
-      let addnewlocatin= new Location(newShop, mincus, avgsold, maxcus);
-      location.push(addnewlocatin);
-      totalcookiesSoldPerHour = 0;
-      addnewlocatin.hourlycustemer();
-      addnewlocatin.cookiesSoldPerHour();
-      alllocationshops();
-      console.log('total ' + totalcookiesSoldPerHour);
-    }
-  }
-  
-=======
-    
->>>>>>> 2a691220cf387b0de95db605abe460a89deb3a69
+
     let table = document.getElementById('cookietable');
     let table = document.createElement('table');
     let trow = [];
@@ -141,3 +117,26 @@ function header(){
     }
     footer();
   }) ();
+         let  newShop=document.getElementById('newshop');
+  
+  function handleshop(event){
+    event.preventDefault();
+    newShop.addEventListener('submit', handleshop);
+    let newShop =event.target.place.value;
+    let  max=parseInt(event.target.max.value);
+    let  min=parseInt(event.target.min.value);
+    let avgsold=parseInt(event.target.avgsold.value);
+    if( totalCookiesSoldInADay===mincus){
+      alert('this a bad day sales');
+    }
+    else{
+  
+      let addnewlocatin= new Location(newShop, mincus, avgsold, maxcus);
+      location.push(addnewlocatin);
+      totalcookiesSoldPerHour = 0;
+      addnewlocatin.hourlycustemer();
+      addnewlocatin.cookiesSoldPerHour();
+      alllocationshops();
+      console.log('total ' + totalcookiesSoldPerHour);
+    }
+  }
