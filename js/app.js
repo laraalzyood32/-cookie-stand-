@@ -35,6 +35,7 @@ let totalCookiesSold = 0;
   }
 
 
+
  
   
 
@@ -121,7 +122,7 @@ function header(){
   
   function handleshop(event){
     event.preventDefault();
-    newShop.addEventListener('submit', handleshop);
+ newShop.addEventListener('submit', handleshop);
     let newShop =event.target.place.value;
     let  max=parseInt(event.target.max.value);
     let  min=parseInt(event.target.min.value);
