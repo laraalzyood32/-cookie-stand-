@@ -28,6 +28,18 @@
     <h3>Cookies Sold</h3>
     <table id="cookies-sold"></table>
   </section>
-  <script src="js/app.js"></script>
+<form id="storeForm">
+                        <input required name="inputLocation"/>Store location<br />
+                        <input required name='inputMinCust' />Minimum customers/hour<br />
+                        <input required name='inputMaxCust' />Maximum customers/hour<br />
+                        <input required name='inputAvgCookies' />Average cookies purchased/customer<br />
+                        <button type='submit'>Submit store</button>
+                  </form>
+            </div>
+            <h2>Sales Results</h2>
+            <div id="salesTable" class="hoursRow" class="footerRow"></div>
+            
+      </body>
+      <script src="main.js"></script>
 </body>
 </html>
