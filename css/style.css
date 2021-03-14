@@ -1,217 +1,253 @@
 body {
-  background-color: #36eee0;
-  color: #4c5270;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
+    background-color: #36eee0;
+    color: #4c5270;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  header {
+    text-align: center;
+    margin: 5px auto;
+  }
+  
+  nav {
+    height: 40px;
+    margin: 10px auto 0px;
+  }
+  
+  nav ul {
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline-block;
+    width: 10%;
+    padding: 5px 5px;
+    border: 2px solid #4c5270;
+  }
+  
+  
+  
+  a {
+    text-decoration: none;
+    color: #4c5270;
+  }
+  
+  a:hover {
+    color: white;
+  }
+  
+  #home {
+    color: #f652a0;
+  }
+  
+  
+  h1 {
+    font-size: 24px;
+    margin: 30px auto;
+    text-align: center;
+    color: #f652a0;
+  }
+  
+  h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f652a0;
+    margin: 5px auto 10px;
+    font-family: 'Amatic SC', cursive;
+  }
+   
+   h5 {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    display: inline-block;
 
-header {
-  text-align: center;
-  margin: 5px auto;
-}
-
-nav {
-  height: 40px;
-  margin: 10px auto 0px;
-}
-
-nav ul {
-  margin: 0 auto;
-  text-align: center;
-}
-
-nav li {
-  display: inline-block;
-  width: 10%;
-  padding: 5px 5px;
-  border: 2px solid #4c5270;
-}
-
-
-
-a {
-  text-decoration: none;
-  color: #4c5270;
-}
-
-a:hover {
-  color: white;
-}
-
-#home {
-  color: #f652a0;
-}
-
-
-h1 {
-  font-size: 24px;
-  margin: 30px auto;
-  text-align: center;
-  color: #f652a0;
-}
-
-h2 {
-  font-size: 48px;
-  font-weight: bold;
-  color: #f652a0;
-  margin: 5px auto 10px;
-  font-family: 'Amatic SC', cursive;
-}
- 
-h5 {
-  text-align: center;
-  font-size: 24px;
-  text-decoration: underline;
-}
-
-p {
-  width: 50%;
-  text-align: left;
-  margin: 0 auto;
-}
-
-table{
-  border: 1px solid black;
-  width: 90%;
-  margin: 0 auto;
-  background-color: rgb(238, 238, 238)
-}
-
-th, td {
-  font-size: 16px;
-  padding: 10px 10px;
-  border: 1px solid black;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-
-
-footer h4, h5{
-  margin: 25px auto;
-}
-
-form {
-  text-align: right;
-  padding-right: 25px;
-}
-
-legend {
-  padding: 10px;
-  text-align: center;
-  font-weight: bold;
-  font-size: 20px;
-}
-
-label {
-  margin: 20px 5px; 
-}
-
-input {
-  margin: 10px 20px;
-}
-
-.table ul{
-  border-radius: 20px;
-  border: none;
-  background-color: #36eee0;
-  width: 960px;
-}
-
-.-table li{
-  display: inline-block;
-  text-align: center;
-  width: 200px;
-  color: white;
-  background-color: rgb(34, 114, 235);
-  border-radius: 20px;
-  border: none;
-}
-
-.table li p {
-  font-size: 14px;
-  width: 90%;
-  padding: 10px;
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.header-row {
-  font-weight: bold;
-  border-bottom: 3px solid black;
-}
-
-.name {
-  font-size: 16px;
-  font-weight: bold;
-  border-right: 3px solid black;
-}
-
-.totalhour {
-  color: rgb(1, 161, 41);
-  font-weight: bold;
-  border-top: 3px solid green;
-}
-
-figure {
-  display: inline-block;
-}
-
-figcaption {
-  padding-bottom: 5px;
-}
-
-
-
-#total {
-  color: rgb(1, 161, 41);
-  font-size: 20px;
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-  border-right: 3px solid black;
-  border-top: 3px solid green;
-}
-
-#form {
-  margin: 25px auto;
-  width: 500px;
-  border: 1px solid black;
-  background-color: rgb(93, 178, 248);
-}
-
-#addshop {
-  margin: 10px 50px;
-  color: green;
-}
-
-#family-pic {
-  text-align: center;
-  width: 350px;
-  border-radius: 100%;
-}
-
-
-#three-fish {
-  height: 150px;
-  padding: 10px 60px;
-}
-
-#chinook {
-  width: 100px;
-  margin: 0 0 75px 0;
-}
-
-#shirt {
-  padding: 20px;
-  width: 200px; 
-}
-
-#cutter {
-  padding: 20px;
-  width: 200px;
-}
-
-#frosted-cookie {
-  padding: 20px;
-  margin-bottom: 35px;
-  width: 200px;
-  float: right;
-}
+  }
+  
+  p  {
+    width: 50%;
+    text-align: left;
+    margin: 0 auto;
+display: inline-block;
+  }
+  
+  table{
+    border: 1px solid black;
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(238, 238, 238)
+  }
+  
+  th, td {
+    font-size: 16px;
+    padding: 10px 10px;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  nav li {
+    display: inline-block;
+    width: 10%;
+    padding: 5px 5px;
+    border: 2px solid #4c5270;
+  }
+  
+  .locations-table ul{
+    border-radius: 20px;
+    border: none;
+    background-color: #36eee0;
+    width: 960px;
+  }
+  
+  .locations-table li{
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    color: white;
+    background-color: rgb(34, 114, 235);
+    border-radius: 20px;
+    border: none;
+  }
+  
+  .locations-table li p {
+    font-size: 14px;
+    width: 90%;
+    padding: 10px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  p {
+    width: 50%;
+    text-align: left;
+    margin: 0 auto;
+  }
+  footer {
+    margin: 25px auto;
+  }
+  
+  form {
+    text-align: right;
+    padding-right: 25px;
+  }
+  
+  legend {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  label {
+    margin: 20px 5px; 
+  }
+  
+  input {
+    margin: 10px 20px;
+  }
+  
+  .table ul{
+    border-radius: 20px;
+    border: none;
+    background-color: #36eee0;
+    width: 960px;
+  }
+  
+  .-table li{
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    color: white;
+    background-color: rgb(34, 114, 235);
+    border-radius: 20px;
+    border: none;
+  }
+  
+  .table li p {
+    font-size: 14px;
+    width: 90%;
+    padding: 10px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .header-row {
+    font-weight: bold;
+    border-bottom: 3px solid black;
+  }
+  
+  .name {
+    font-size: 16px;
+    font-weight: bold;
+    border-right: 3px solid black;
+  }
+  
+  .totalhour {
+    color: rgb(1, 161, 41);
+    font-weight: bold;
+    border-top: 3px solid green;
+  }
+  
+  figure {
+    display: inline-block;
+  }
+  
+  
+  #total {
+    color: rgb(1, 161, 41);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right: 3px solid black;
+    border-top: 3px solid green;
+  }
+  
+  #form {
+    margin: 25px auto;
+    width: 500px;
+    border: 1px solid rgb(86, 163, 14);
+    background-color: rgb(93, 178, 248);
+  }
+  
+  #addshop {
+    margin: 10px 50px;
+    color: green;
+  }
+  
+  #family-pic {
+    text-align: center;
+    width:500px;
+    border-radius: 100%;
+    float: inline-start;
+  }
+  
+  
+  #three-fish {
+    height: 150px;
+    padding: 10px 60px;
+    float:right;
+  }
+  
+  #chinook {
+    width: 100px;
+    margin: 0 0 75px 0;
+  }
+  
+  #shirt {
+    padding: 50px;
+    width: 200px; 
+    margin: 25px;
+  }
+  
+  #cutter {
+    padding: 20px;
+    width: 200px;
+  }
+  
+  #frosted-cookie {
+    padding: 20px;
+    margin-bottom:50px;
+    width: 200px;
+    float:right;
+    display: block;
+  }
+  
